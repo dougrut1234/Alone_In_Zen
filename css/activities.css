@@ -1,0 +1,115 @@
+body {
+    background-color: #F2F3F4;
+}
+
+#banner_color {
+    height: 200px;
+    width: 1500px;
+    margin-left: -20px;
+    margin-top: -120px;
+    background-color: #D3F3F8;
+}
+
+#title {
+    font-family: 'Indie Flower', cursive;
+    font-size: 108px;
+    padding-top: 50px;
+    margin-left: 75px;
+}
+
+#slogan {
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    float: right;
+    margin-right: 175px;
+    letter-spacing: 5px;
+    margin-top: -190px;
+}
+
+#nav_bar_color {
+    height: 72.5px;
+    width: 1500px;
+    background-color: #F1E7E4;
+    margin-left: -20px;
+    margin-bottom: 50px;
+}
+
+#nav_bars {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    letter-spacing: 2px;
+    float: left;
+    margin-left: 75px;
+    margin-top: 20px;
+}
+
+#nav_bars_home {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    letter-spacing: 2px;
+    float: left;
+    padding-left: 180px;
+    margin-left: 75px;
+    margin-top: 20px;
+}
+
+
+#guitar{
+    position: relative;
+    width: 500px;
+    height: auto;
+    animation-name: example;
+    animation-duration: 6s;
+}
+
+#hiking{
+    position: relative;
+    width: 500px;
+    height: auto;
+    animation-name: example;
+    animation-duration: 6s;
+    
+}
+
+#meditation{
+    position: relative;
+    width: 500px;
+    height: auto;
+    animation-name: example;
+    animation-duration: 6s;
+}
+
+.slideshow_activities {
+    max-width: 700px;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 25px;
+    opacity: 1;
+    z-index: -1px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #D3F3F8;
+}
+
+#activities_quote {
+    font-family: 'Indie Flower', cursive;
+    font-size: 24px;
+    text-align: center;
+}
+
+#activities_intro {
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+    float: right;
+    margin-left: 700px;
+    margin-top: -350px;
+    line-height: 50px;
+    padding-right: 20px;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/activities.css">
+</head>
+
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Lato:300i" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<body>
+	<div id="banner_color">
+		<p id="title">ALONE IN ZEN</p><
+		<p id="slogan">Let Go Of Yourself. Embrace.</p>
+	</div>
+	<div id="nav_bar_color">
+		<a id="nav_bars" href="about.html">About</a>
+		<a id="nav_bars" href="activities.html">Activity Plan</a>
+    <a id="nav_bars" href="music.html">Music</a>
+		<a id="nav_bars" href="recipes.html">Recipes</a>
+		<a id="nav_bars" href="stories.html">Your Stories</a>
+    <a id="nav_bars_home" href="index.html">Home</a>
+	</div>
+
+<p id="activities_quote">"We need to teach people that the environment has a direct bearing on our own benefit."<br>-Dalai Lama</p>
+
+<style>
+.mySlides {display:none}
+
+@keyframes example {
+    0%   {left:0px; top:0px; opacity: 1}
+    100% {left:150px; top:0px; opacity: .5}
+}
+
+
+</style>
+
+
+
+<div class = "slideshow_activities">
+
+<div class = "mySlides cross">
+	<img id="guitar" src="images/music.jpg">
+</div>
+
+<div class = "mySlides cross">
+	<img id="hiking" src="images/hiking.jpg">
+</div>
+
+<div class = "mySlides cross">
+	<img id="meditation" src="images/meditation.jpg">
+</div>
+
+</div>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+
+<script>
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3000);
+}
+
+</script>
+
+<p id="activities_intro">What can you possibly do without the presence of other people? So many things. Below we will suggest a few activities you can and should do in order to bring out your inner self and <i>absorb</i> the environment and senses, whether it be sound or scent around you. Below is a sample schedule of activites to pursue!</p> 
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Lato:300i" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<body>
+	<div id="banner_color">
+		<p id="title">ALONE IN ZEN</p><
+		<p id="slogan">Let Go Of Yourself. Embrace.</p>
+	</div>
+	<div id="nav_bar_color">
+		<a id="nav_bars" href="about.html">About</a>
+		<a id="nav_bars" href="activities.html">Activity Plan</a>
+    <a id="nav_bars" href="music.html">Music</a>
+		<a id="nav_bars" href="recipes.html">Recipes</a>
+		<a id="nav_bars" href="stories.html">Your Stories</a>
+    <a id="nav_bars_home" href="index.html">Home</a>
+	</div>
+
+	<p id="quote">There is an un-born, un-become, un-made, un-fabricated. If there were not that un-born, un-become, un-made, un-fabricated, there would not be the case that emancipation from the born, become, made, fabricated would be discerned. But precisely because there is an un-born, un-become, un-made, un-fabricated, emancipation from the born, become, made, fabricated is discerned - Buddha</p>
+	
+<style>
+.mySlides {display:none}
+
+@keyframes fade {
+  from {opacity: .50} 
+  to {opacity: .75}
+}
+
+</style>
+</head>
+<body>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="images/rocks.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/lake.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/person.jpg" style="width:100%">
+</div>
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 10000); // Change image every 2 seconds
+}
+</script>
+
+<audio loop="loop", autoplay="autoplay" volume=0.5>
+  <source src="audio/wind.mp3" type="audio/mpeg">
+ 
+</audio>
+
+</body>
+</html>
+
+
