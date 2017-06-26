@@ -24,7 +24,7 @@
 		<a id="nav_bars" href="about.html">About</a>
 		<a id="nav_bars" href="activities.html">Activity Plan</a>
 		<a id="nav_bars" href="recipes.html">Recipes</a>
-		<a id="nav_bars" href="stories.html">Your Stories</a>
+		<a id="nav_bars" href="resources.html">Resources</a>
 		<a id="nav_bars_home" href="index.html">Home</a>
 	</div>
 
@@ -59,13 +59,13 @@
 $(document).ready(function(){
     $("#meal_1").click(function(){
         $("#float_meal1_pics1").fadeIn();
-        $("#float_meal1_pics2").fadeIn("slow");
+        $("#float_meal1_pics2").fadeIn(1500);
         $("#float_meal1_pics3").fadeIn(3000);
         $("#float_meal1_pics4").hide();
         $("#float_meal1_pics5").hide();
         $("#float_meal1_pics6").hide();
-        $("#meal_1_title").show();
-        $("#meal_2_title").hide();
+        $("#meal_1").css('color', 'aqua');
+        $("#meal_2").css('color', 'black');
     });
 });
 </script>
@@ -73,13 +73,13 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#meal_2").click(function(){
         $("#float_meal1_pics4").fadeIn();
-        $("#float_meal1_pics5").fadeIn("slow");
+        $("#float_meal1_pics5").fadeIn(1500);
         $("#float_meal1_pics6").fadeIn(3000);
         $("#float_meal1_pics1").hide();
         $("#float_meal1_pics2").hide();
         $("#float_meal1_pics3").hide();
-        $("#meal_2_title").show();
-        $("#meal_1_title").hide();
+        $("#meal_1").css('color', 'black');
+        $("#meal_2").css('color', 'aqua');
     });
 });
 </script>

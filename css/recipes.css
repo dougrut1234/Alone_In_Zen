@@ -54,8 +54,7 @@ body {
 	font-size: 24px;
 	letter-spacing: 2px;
 	float: left;
-	padding-left: 180px;
-	margin-left: 150px;
+	margin-left: 450px;
 	margin-top: 20px;
 }
 
@@ -91,9 +90,10 @@ a:hover {
 	float: left;
 	font-size: 28px;
 	margin-left: 360px;
-	margin-top: 100px;
+	margin-top: 25px;
+	margin-bottom: -100px;
 	cursor: pointer;
-	padding-bottom: 150px;
+	padding-bottom: 350px;
 }
 
 #meal_2{
@@ -101,9 +101,10 @@ a:hover {
 	float: left;
 	font-size: 28px;
 	margin-left: 360px;
-	margin-top: 100px;
+	margin-top: 25px;
+	margin-bottom: -100px;
 	cursor: pointer;
-	padding-bottom: 150px;
+	padding-bottom: 350px;
 }
 
 #float_meal1_pics1 {
@@ -112,7 +113,7 @@ a:hover {
 	height: auto;
 	margin-left: 60px;
 	cursor: pointer;
-	margin-top: -150px;
+	margin-top: -250px;
 }
 
 #float_meal1_pics2 {
@@ -121,7 +122,7 @@ a:hover {
 	height: auto;
 	margin-left: 60px;
 	cursor: pointer;
-	margin-top: -150px;
+	margin-top: -250px;
 }
 
 #float_meal1_pics3 {
@@ -130,7 +131,7 @@ a:hover {
 	height: auto;
 	margin-left: 60px;
 	cursor: pointer;
-	margin-top: -150px;
+	margin-top: -250px;
 }
 
 #float_meal1_pics4 {
@@ -139,7 +140,7 @@ a:hover {
 	height: auto;
 	margin-left: 60px;
 	cursor: pointer;
-	margin-top: -150px;
+	margin-top: -250px;
 }
 
 #float_meal1_pics5 {
@@ -148,7 +149,7 @@ a:hover {
 	height: auto;
 	margin-left: 60px;
 	cursor: pointer;
-	margin-top: -150px;
+	margin-top: -250px;
 }
 
 #float_meal1_pics6 {
@@ -157,7 +158,7 @@ a:hover {
 	height: auto;
 	margin-left: 60px;
 	cursor: pointer;
-	margin-top: -150px;
+	margin-top: -250px;
 }
 
 
@@ -178,7 +179,7 @@ a:hover {
 	font-family: 'Raleway', sans-serif;
 	font-size: 36px;
 	text-align: center;
-	padding-bottom: 50px;
+	padding-bottom: 200px;
 }
 
 #meal_2_title {
@@ -186,7 +187,7 @@ a:hover {
 	font-family: 'Raleway', sans-serif;
 	font-size: 36px;
 	text-align: center;
-	padding-bottom: 50px;
+	padding-bottom: 200px;
 }
 
 #meals_message {
@@ -195,12 +196,13 @@ a:hover {
 	text-align: justify;
 	padding-left: 50px;
 	padding-right: 50px;
-	margin-top: 150px;
+	margin-top: 50px;
 	background-color: #F1E7E4;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
 
-#padding_botton {
-	padding-bottom: 500px;
+
+#meal_1_pics {
+	padding-bottom: 75px;
 }

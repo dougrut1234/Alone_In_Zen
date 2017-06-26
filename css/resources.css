@@ -52,31 +52,6 @@ body {
 	margin-top: 20px;
 }
 
-
-.slideshow-container {
-    max-width: 1550px;
-    position: relative;
-    margin: auto;
-    opacity: .50;
-    z-index: -1px;
-}
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 5s;
-  animation-name: fade;
-  animation-duration: 5s;
-}
-
-#quote {
-	font-family: 'Indie Flower', cursive;
-	font-size: 24px;
-	font-weight: bold;
-	padding-top: 0px;
-	padding-left: 120px;
-	padding-right: 120px;
-}
-
 a {
 	text-decoration: none;
 	color: black;
@@ -84,4 +59,28 @@ a {
 
 a:hover {
 	color: #D3F3F8;
+}
+
+#video_shift {
+	text-align: center;
+	margin-top: 50px;
+}
+
+#resources_title {
+	font-family: 'Indie Flower', cursive;
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 100px;
+}
+
+#books {
+	margin-left: 120px;
+	float: left;
+	padding-bottom: 75px;
+}
+
+#books:hover {
+	width: 325px;
+	height: auto;
 }
