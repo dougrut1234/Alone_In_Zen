@@ -1,0 +1,206 @@
+body {
+	background-color: #F2F3F4;
+}
+
+#banner_color {
+	height: 200px;
+	width: 1500px;
+	margin-left: -20px;
+	margin-top: -120px;
+	background-color: #D3F3F8;
+}
+
+#title {
+	font-family: 'Indie Flower', cursive;
+	font-size: 108px;
+	padding-top: 50px;
+	margin-left: 75px;
+}
+
+#slogan {
+	font-family: 'Lato', sans-serif;
+	font-size: 32px;
+	float: right;
+	margin-right: 175px;
+	letter-spacing: 5px;
+	margin-top: -190px;
+}
+
+#nav_bar_color {
+	height: 72.5px;
+	width: 1500px;
+	background-color: #F1E7E4;
+	margin-left: -20px;
+	margin-bottom: 50px;
+}
+
+#food_name {
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	font-size: 36px;
+}
+
+#nav_bars {
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	letter-spacing: 2px;
+	float: left;
+	margin-left: 75px;
+	margin-top: 20px;
+}
+
+#nav_bars_home {
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	letter-spacing: 2px;
+	float: left;
+	padding-left: 180px;
+	margin-left: 150px;
+	margin-top: 20px;
+}
+
+#recipes_quote {
+    font-family: 'Indie Flower', cursive;
+    font-size: 24px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: #D3F3F8;
+}
+
+#no_alcohol {
+	font-family: 'Raleway', sans-serif;
+	font-size: 54px;
+	text-align: center;
+	background-color: #FAC0C0;
+	width: 500px;
+	margin-left: 400px;
+}
+
+
+#meal_1{
+	font-family: 'Lato', sans-serif;
+	float: left;
+	font-size: 28px;
+	margin-left: 360px;
+	margin-top: 100px;
+	cursor: pointer;
+	padding-bottom: 150px;
+}
+
+#meal_2{
+	font-family: 'Lato', sans-serif;
+	float: left;
+	font-size: 28px;
+	margin-left: 360px;
+	margin-top: 100px;
+	cursor: pointer;
+	padding-bottom: 150px;
+}
+
+#float_meal1_pics1 {
+	display: none;
+	width: 360px;
+	height: auto;
+	margin-left: 60px;
+	cursor: pointer;
+	margin-top: -150px;
+}
+
+#float_meal1_pics2 {
+	display: none;
+	width: 360px;
+	height: auto;
+	margin-left: 60px;
+	cursor: pointer;
+	margin-top: -150px;
+}
+
+#float_meal1_pics3 {
+	display: none;
+	width: 360px;
+	height: auto;
+	margin-left: 60px;
+	cursor: pointer;
+	margin-top: -150px;
+}
+
+#float_meal1_pics4 {
+	display: none;
+	width: 360px;
+	height: auto;
+	margin-left: 60px;
+	cursor: pointer;
+	margin-top: -150px;
+}
+
+#float_meal1_pics5 {
+	display: none;
+	width: 360px;
+	height: auto;
+	margin-left: 60px;
+	cursor: pointer;
+	margin-top: -150px;
+}
+
+#float_meal1_pics6 {
+	display: none;
+	width: 360px;
+	height: auto;
+	margin-left: 60px;
+	cursor: pointer;
+	margin-top: -150px;
+}
+
+
+#ingredients {
+	font-family: 'Lato', sans-serif;
+	font-size: 27px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+#step {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+}
+
+#meal_1_title {
+	display: none;
+	font-family: 'Raleway', sans-serif;
+	font-size: 36px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#meal_2_title {
+	display: none;
+	font-family: 'Raleway', sans-serif;
+	font-size: 36px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#meals_message {
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	text-align: justify;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-top: 150px;
+	background-color: #F1E7E4;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#padding_botton {
+	padding-bottom: 500px;
+}

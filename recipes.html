@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<link rel="stylesheet" type="text/css" href="css/recipes.css">
+</head>
+
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Lato:300i" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<body>
+	<div id="banner_color">
+		<p id="title">ALONE IN ZEN</p><
+		<p id="slogan">Let Go Of Yourself. Embrace.</p>
+	</div>
+	<div id="nav_bar_color">
+		<a id="nav_bars" href="about.html">About</a>
+		<a id="nav_bars" href="activities.html">Activity Plan</a>
+		<a id="nav_bars" href="recipes.html">Recipes</a>
+		<a id="nav_bars" href="stories.html">Your Stories</a>
+		<a id="nav_bars_home" href="index.html">Home</a>
+	</div>
+
+<p id="recipes_quote">"If a man can control his body and mind and thereby refrains from eating animal flesh and wearing animal products, I say he will really be liberated."<br>The Buddha"
+
+
+<p id="meals_message">No breakfast? Lunch? No dinner?! Only two meals? It's not as crazy as it seems. Even in our pursuit for mental clarity it's a must to watch our diet. Not only WHAT we eat, but WHEN we eat. Monks would eat only two meals and nothing else in the afternoon and at night. Why? They believe it's paramount to do away the sensations of taste and do away desire for food so they can concentrate on more important activities the rest of the day. Don't worry. You'll still be able to drink liquids like water and milk.<br><br>For the next two weeks, it's important to go vegetarian, to abstain taking a life, no matter what animal in pathway to peace. We offer many dishes that are tasty and can be easily prepared.<br><br><br>Also, remember to NOT drink alcohol as it affects your mind in releasing the self. And be sure to eat in moderation as we must stay on the middle path.</p>
+
+
+<b><p id="meal_1">First Meal</p></b>
+<b><p id="meal_2">Second Meal</p></b>
+
+
+<div id="meal_1_pics">
+	<img id="float_meal1_pics1" src="images/tomato_cabbage.jpg">
+	<img id="float_meal1_pics2" src="images/sesame_mushroom.jpg">
+	<img id="float_meal1_pics3" src="images/veggie_tripe.jpg">
+	<img id="float_meal1_pics4" src="images/curry_cauliflower.jpg">
+	<img id="float_meal1_pics5" src="images/ginger_tofu.jpg">
+	<img id="float_meal1_pics6" src="images/jin_vegetable.jpg">
+
+</div>
+
+<b><p id="meal_1_title">First Meal<p></p>
+<b><p id="meal_2_title">Second Meal<p></p>
+
+<div id="padding_bottom">
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#meal_1").click(function(){
+        $("#float_meal1_pics1").fadeIn();
+        $("#float_meal1_pics2").fadeIn("slow");
+        $("#float_meal1_pics3").fadeIn(3000);
+        $("#float_meal1_pics4").hide();
+        $("#float_meal1_pics5").hide();
+        $("#float_meal1_pics6").hide();
+        $("#meal_1_title").show();
+        $("#meal_2_title").hide();
+    });
+});
+</script>
+<script>
+$(document).ready(function(){
+    $("#meal_2").click(function(){
+        $("#float_meal1_pics4").fadeIn();
+        $("#float_meal1_pics5").fadeIn("slow");
+        $("#float_meal1_pics6").fadeIn(3000);
+        $("#float_meal1_pics1").hide();
+        $("#float_meal1_pics2").hide();
+        $("#float_meal1_pics3").hide();
+        $("#meal_2_title").show();
+        $("#meal_1_title").hide();
+    });
+});
+</script>
+
+<style>
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #F1E7E4;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: black;
+    float: right;
+    font-size: 28px;
+    margin-top: -45px;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close_sesame_mushroom {
+    color: black;
+    float: right;
+    font-size: 28px;
+    margin-top: -45px;
+}
+
+.close_sesame_mushroom:hover,
+.close_sesame_mushroom:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close_veggie_tripe {
+    color: black;
+    float: right;
+    font-size: 28px;
+    margin-top: -45px;
+}
+
+.close_veggie_tripe:hover,
+.close_veggie_tripe:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close_curry_cauliflower {
+    color: black;
+    float: right;
+    font-size: 28px;
+    margin-top: -45px;
+}
+
+.close_curry_cauliflower:hover,
+.close_curry_cauliflower:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close_ginger_tofu {
+    color: black;
+    float: right;
+    font-size: 28px;
+    margin-top: -45px;
+}
+
+.close_ginger_tofu:hover,
+.close_ginger_tofu:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.close_jin_vegetable {
+    color: black;
+    float: right;
+    font-size: 28px;
+    margin-top: -45px;
+}
+
+.close_jin_vegetable:hover,
+.close_jin_vegetable:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.modal-body {padding: 2px 16px;}
+
+
+</style>
+</head>
+<body>
+
+<!-- Trigger/Open The Modal -->
+
+
+<!-- The Modal -->
+<div id="myModal_vegetable_cabbage" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <u><p id="food_name">Tomato Cabbage</p></u>
+      <p id="ingredients">Ingredients: Tomatoes, Cabbage, Tofu skin, Tomato sauce</h2>
+    </div>
+    <div class="modal-body">
+      <p id="step"><b>1.</b> Clean cabbage and tomatoes. Blanch tomatoes, remove skin and cut into slices. Cut cabbage and tofu skin into similar sizes (see pictures). Blanch tofu skin to remove impurities.</p>
+      <p id="step"><br>2.</b>In a heated wok, add oil, tomato sauce, salt, sugar and water. Stir. Add cabbage, coat with sauce and allow to cook down. Add tofu skin and tomatoes. Stir and allow all to simmer. Serve.</p>
+    </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+
+var myModal_vegetable_cabbage = document.getElementById('myModal_vegetable_cabbage');
+
+var btn = document.getElementById("float_meal1_pics1");
+
+var span = document.getElementsByClassName("close")[0];
+
+btn.onclick = function() {
+    myModal_vegetable_cabbage.style.display = "block";
+}
+span.onclick = function() {
+    myModal_vegetable_cabbage.style.display = "none";
+}
+
+
+</script>
+
+<div id="myModal_sesame_mushroom" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close_sesame_mushroom">&times;</span>
+      <u><p id="food_name">Sesame Mushroom Basil</p></u>
+      <p id="ingredients">Ingredients: Basil, Oyster mushrooms, Monkey head mushrooms, Ginko nuts, Hot chili peppers, Dates</h2>
+    </div>
+    <div class="modal-body">
+      <p id="step"><b>1.</b> Cut the oyster mushrooms in slices and score them. Curl and hold the shape with a toothpick. Deep fry or stir fry until the shape holds and remove tooth picks. Cook red dates in boiling water. Preserve broth.</p>
+      <p id="step"><br>2.</b>Heat wok, add sesame oil, hot peppers and ginger, stir fry until fragrant. Add ginko nuts, stir. Add both mushrooms and stir. Add liquid from dates. Season with vegetarian oyster sauce and rock sugar syrup. Add basil and red dates. Stir and serve.</p>
+    </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+
+var modal_sesame_mushroom = document.getElementById('myModal_sesame_mushroom');
+
+var btn_sesame_mushroom = document.getElementById("float_meal1_pics2");
+
+var span_sesame_mushroom = document.getElementsByClassName("close_sesame_mushroom")[0];
+
+btn_sesame_mushroom.onclick = function() {
+    modal_sesame_mushroom.style.display = "block";
+}
+span_sesame_mushroom.onclick = function() {
+    modal_sesame_mushroom.style.display = "none";
+}
+
+</script>
+
+<div id="myModal_veggie_tripe" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close_veggie_tripe">&times;</span>
+      <u><p id="food_name">Veggie Tripe with Pickled Mustard</p></u>
+      <p id="ingredients">Ingredients: Veggie tripe, Bamboos, Pickled mustards, Needle mushrooms, Carrots, Hot chili peppers</h2>
+    </div>
+    <div class="modal-body">
+      <p id="step"><b>1.</b> Slice veggie tripe, bamboos, pickled mustards, carrots and hot chili peppers into strips. Clean and separate needle mushroom into small chunks. Blanch pickled mustard and bamboos. Pan fry or deep fry veggie tripe.</p>
+      <p id="step"><br>2.</b>In a heated wok, add oil and ginger. Add pickled mustards and stir. Add needed mushrooms. Stir. Add bamboos, season with salt, sugar, mushroom seasoning and rice vinegar. Stir. Add carrots, chili peppers and veggie tripe. Stir and serve.</p>
+    </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+
+var modal_veggie_tripe = document.getElementById('myModal_veggie_tripe');
+
+var btn_veggie_tripe = document.getElementById("float_meal1_pics3");
+
+var span_veggie_tripe = document.getElementsByClassName("close_veggie_tripe")[0];
+
+btn_veggie_tripe.onclick = function() {
+    modal_veggie_tripe.style.display = "block";
+}
+span_veggie_tripe.onclick = function() {
+    modal_veggie_tripe.style.display = "none";
+}
+
+</script>
+
+
+<div id="myModal_curry_cauliflower" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close_curry_cauliflower">&times;</span>
+      <u><p id="food_name">Curry Cauliflower</p></u>
+      <p id="ingredients">Ingredients: Tomatoes, Peas, Cauliflower</h2>
+    </div>
+    <div class="modal-body">
+      <p id="step"><b>1.</b> Boil tomatoes until skin separates; remove skin. Cut cauliflower and tomatoes into chunks.</p>
+      <p id="step"><br>2.</b>In a heated wok, add oil and curry powder. Add water, salt, sugar, and mushroom seasoning; stir and bring to boil. Add cauliflower; stir to coat the cauliflower with sauce and cover the wok with a lid. Allow to simmer until cauliflower is tender. Add tomatoes. Add potato starch solution to thicken sauce. Add peas; stir and serve.</p>
+    </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+
+var modal_curry_cauliflower = document.getElementById('myModal_curry_cauliflower');
+
+var btn_curry_cauliflower = document.getElementById("float_meal1_pics4");
+
+var span_curry_cauliflower = document.getElementsByClassName("close_curry_cauliflower")[0];
+
+btn_curry_cauliflower.onclick = function() {
+    modal_curry_cauliflower.style.display = "block";
+}
+span_curry_cauliflower.onclick = function() {
+    modal_curry_cauliflower.style.display = "none";
+}
+
+
+</script>
+
+<div id="myModal_ginger_tofu" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close_ginger_tofu">&times;</span>
+      <u><p id="food_name">Ginger Tofu Wrap</p></u>
+      <p id="ingredients">Ingredients: Frozen tofu wrap</h2>
+    </div>
+    <div class="modal-body">
+      <p id="step"><b>1.</b> Sauce: mix minced ginger, premium soy sauce, white sesame oil, mushroom seasoning, white pepper, water, sugar and salt to taste.</p>
+      <p id="step"><br>2.</b>Soak defrosted tofu wrap in the sauce. Be sure to open the tofu wrap so the sauce is distributed throughout. Panfry tofu wraps on each side until golden brown. Cut to bite sizes and serve.</p>
+    </div>
+    </div>
+  </div>
+
+
+<script>
+
+var modal_ginger_tofu= document.getElementById('myModal_ginger_tofu');
+
+var btn_ginger_tofu = document.getElementById("float_meal1_pics5");
+
+var span_ginger_tofu = document.getElementsByClassName("close_ginger_tofu")[0];
+
+btn_ginger_tofu.onclick = function() {
+    modal_ginger_tofu.style.display = "block";
+}
+span_ginger_tofu.onclick = function() {
+    modal_ginger_tofu.style.display = "none";
+}
+
+</script>
+
+<div id="myModal_jin_vegetable" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close_jin_vegetable">&times;</span>
+      <u><p id="food_name">Jie Vegetable</p></u>
+      <p id="ingredients">Ingredients: Jie vegetable stems, Brown beech mushrooms, White beech mushrooms, Bamboos</h2>
+    </div>
+    <div class="modal-body">
+      <p id="step"><b>1.</b>Cut jie vegetables into chunks. Separate beech mushrooms. Slice bamboos.</p>
+      <p id="step"><br>2.</b>Bring a pot of water to boil. Add some salt and oil. Blanch jie vegetables until the stem is tender (should give a little when pinched with fingers). Immediately transfer to cold water so the vegetables stay green. Blanch bamboos.<br>In a heated wok add slice ginger and oil. Stir until fragrant. Add beech mushrooms and cook until liquid seeps out. Add salt, sugar, and mushroom seasoning to taste. Add jie vegetables and bamboos. Add corn starch solution to thicken sauce. Transfer to platter. Optional: add home made carrot sauce. Serve.</p>
+    </div>
+    </div>
+  </div>
+
+
+<script>
+
+var modal_jin_vegetable = document.getElementById('myModal_jin_vegetable');
+
+var btn_jin_vegetable = document.getElementById("float_meal1_pics6");
+
+var span_jin_vegetable = document.getElementsByClassName("close_jin_vegetable")[0];
+
+btn_jin_vegetable.onclick = function() {
+    modal_jin_vegetable.style.display = "block";
+}
+span_jin_vegetable.onclick = function() {
+    modal_jin_vegetable.style.display = "none";
+}
+
+</script>
+
